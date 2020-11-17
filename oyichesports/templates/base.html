@@ -39,7 +39,7 @@ Author:
 	<link rel="stylesheet" href="{% static 'css/magnific-popup.css' %}">
 	<link rel="stylesheet" href="{% static 'css/inner_style.css' %}">
 <script src="{% static '../../google_analytics_auto.js' %}"></script>
-<link rel="shortcut icon" type="image/x-icon" href="images/football/sportsfavicon.ico">
+<link rel="shortcut icon" type="image/x-icon" href="{% static 'images/football/sportsfavicon.ico' %}">
 
 </head>
 
@@ -264,8 +264,8 @@ Author:
     <script src="{% static 'js/cursor.js' %}"></script>
     <script src="{% static 'js/football.js' %}"></script>
 
-    <!-- <script src="{% static 'js/customScrollbar.min.js' %}"></script>
-    <script src="{% static 'js/main.js' %}"></script> -->
+    <script src="{% static 'js/customScrollbar.min.js' %}"></script>
+    <script src="{% static 'js/main.js' %}"></script>
     <!-- custom js-->
     <script>
         $('.zoom_popup').magnificPopup({

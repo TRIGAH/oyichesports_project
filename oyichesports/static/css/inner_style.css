@@ -6505,6 +6505,9 @@ ul.player-trophey {
 	}
 }
 
+@media (max-width: 996px){
+
+}
 @media (max-width: 991px){
 	.lr_nl_heading_wrapper h2 {
 		font-size: 30px;

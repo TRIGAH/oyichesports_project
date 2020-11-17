@@ -3,7 +3,8 @@
     <!-- inner Title Start -->
 {% extends 'base.html' %}   
 {% load static  %} 
-{% block content %}    
+{% block content %}  
+
     <div class="indx_title_main_wrapper float_left">
         <div class="title_img_overlay"></div>
         <div class="container">
@@ -444,6 +445,11 @@
     <!--footer wrapper end-->
 
     <!-- js files start -->
+  
+       
+    <script src="{% static 'js/customScrollbar.min.js' %}"></script>
+    <script src="{% static 'js/main.js' %}"></script>
     {% include 'partials/_footer.html' %}
 
    {% endblock %}
+  

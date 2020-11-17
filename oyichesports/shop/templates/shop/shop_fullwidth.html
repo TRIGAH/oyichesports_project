@@ -1,5 +1,5 @@
 {% extends 'base.html' %}
-
+{% load static %}
 {% block content %}
     <!-- navi wrapper End -->
     <!-- inner Title Start -->
@@ -15,7 +15,7 @@
                 <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 full_width">
                     <div class="indx_title_right_wrapper">
                         <ul>
-                            <li><a href="index.html">Home</a> &nbsp;&nbsp;&nbsp;> </li>
+                            <li><a href='{% url "home" %} '>Home</a> &nbsp;&nbsp;&nbsp;> </li>
                             <li>shop fullwidth</li>
                         </ul>
                     </div>
@@ -74,7 +74,7 @@
                                                         <ul>
                                                             <li class="btc_shop_price">new</li>
                                                         </ul>
-                                                        <img src="images/inner/on1.png" alt="shop_img" class="img-responsive" />
+                                                        <img src="{% static 'images/inner/on1.png' %}" alt="shop_img" class="img-responsive" />
                                                         <div class="cc_li_img_overlay">
                                                             <div class="cc_li_img_text">
                                                                 <ul>
@@ -114,7 +114,7 @@
                                                             <h3>elite brand</h3>
                                                         </div>
                                                         <div class="product_price">
-                                                            <p>$140.00 <del>150.00</del></p>
+                                                            <p>&#8358;140.00 <del>150.00</del></p>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -125,7 +125,7 @@
                                                         <ul>
                                                             <li class="btc_shop_price">hot</li>
                                                         </ul>
-                                                        <img src="images/inner/on2.png" alt="shop_img" class="img-responsive" />
+                                                        <img src="{% static 'images/inner/on2.png' %}" alt="shop_img" class="img-responsive" />
                                                         <div class="cc_li_img_overlay">
                                                             <div class="cc_li_img_text">
                                                                 <ul>
@@ -164,7 +164,7 @@
                                                             <h3>Women's wear</h3>
                                                         </div>
                                                         <div class="product_price">
-                                                            <p>$150.00 <del>190.00</del></p>
+                                                            <p>&#8358;150.00 <del>190.00</del></p>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -173,7 +173,7 @@
                                                 <div class="btc_shop_indx_cont_box_wrapper">
                                                     <div class="btc_shop_indx_img_wrapper">
 
-                                                        <img src="images/inner/on3.png" alt="shop_img" class="img-responsive" />
+                                                        <img src="{% static 'images/inner/on3.png' %}" alt="shop_img" class="img-responsive" />
                                                         <div class="cc_li_img_overlay">
                                                             <div class="cc_li_img_text">
                                                                 <ul>
@@ -213,7 +213,7 @@
                                                             <h3>men's wear</h3>
                                                         </div>
                                                         <div class="product_price">
-                                                            <p>$110.00 <del>120.00</del></p>
+                                                            <p>&#8358;110.00 <del>120.00</del></p>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -224,7 +224,7 @@
                                                         <ul>
                                                             <li class="btc_shop_price">hot</li>
                                                         </ul>
-                                                        <img src="images/inner/on4.png" alt="shop_img" class="img-responsive" />
+                                                        <img src="{% static 'images/inner/on4.png' %}" alt="shop_img" class="img-responsive" />
                                                         <div class="cc_li_img_overlay">
                                                             <div class="cc_li_img_text">
                                                                 <ul>
@@ -264,7 +264,7 @@
                                                             <h3>Women's wear</h3>
                                                         </div>
                                                         <div class="product_price">
-                                                            <p>$40.00 <del>50.00</del></p>
+                                                            <p>&#8358;40.00 <del>50.00</del></p>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -275,7 +275,7 @@
                                                         <ul>
                                                             <li class="btc_shop_price">new</li>
                                                         </ul>
-                                                        <img src="images/inner/on5.png" alt="shop_img" class="img-responsive" />
+                                                        <img src="{% static 'images/inner/on5.png' %}" alt="shop_img" class="img-responsive" />
                                                         <div class="cc_li_img_overlay">
                                                             <div class="cc_li_img_text">
                                                                 <ul>
@@ -315,7 +315,7 @@
                                                             <h3>racket_elite</h3>
                                                         </div>
                                                         <div class="product_price">
-                                                            <p>$120.00 <del>130.00</del></p>
+                                                            <p>&#8358;120.00 <del>130.00</del></p>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -326,7 +326,7 @@
                                                         <ul>
                                                             <li class="btc_shop_price btc_stock">Sold</li>
                                                         </ul>
-                                                        <img src="images/inner/on6.png" alt="shop_img" class="img-responsive" />
+                                                        <img src="{% static 'images/inner/on6.png' %}" alt="shop_img" class="img-responsive" />
                                                         <div class="cc_li_img_overlay">
                                                             <div class="cc_li_img_text">
                                                                 <ul>
@@ -367,7 +367,7 @@ Hooded Jacket</a></h1>
                                                             <h3>Adidas brand</h3>
                                                         </div>
                                                         <div class="product_price">
-                                                            <p>$140.00 <del>180.00</del></p>
+                                                            <p>&#8358;140.00 <del>180.00</del></p>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -376,7 +376,7 @@ Hooded Jacket</a></h1>
                                                 <div class="btc_shop_indx_cont_box_wrapper">
                                                     <div class="btc_shop_indx_img_wrapper">
 
-                                                        <img src="images/inner/on7.png" alt="shop_img" class="img-responsive" />
+                                                        <img src="{% static 'images/inner/on7.png' %}" alt="shop_img" class="img-responsive" />
                                                         <div class="cc_li_img_overlay">
                                                             <div class="cc_li_img_text">
                                                                 <ul>
@@ -416,7 +416,7 @@ Hooded Jacket</a></h1>
                                                             <h3>Women's wear</h3>
                                                         </div>
                                                         <div class="product_price">
-                                                            <p>$120.00 <del>150.00</del></p>
+                                                            <p>&#8358;120.00 <del>150.00</del></p>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -427,7 +427,7 @@ Hooded Jacket</a></h1>
                                                         <ul>
                                                             <li class="btc_shop_price btc_stock">Sold</li>
                                                         </ul>
-                                                        <img src="images/inner/on8.png" alt="shop_img" class="img-responsive" />
+                                                        <img src="{% static 'images/inner/on8.png' %}" alt="shop_img" class="img-responsive" />
                                                         <div class="cc_li_img_overlay">
                                                             <div class="cc_li_img_text">
                                                                 <ul>
@@ -467,7 +467,7 @@ Hooded Jacket</a></h1>
                                                             <h3>men's wear</h3>
                                                         </div>
                                                         <div class="product_price">
-                                                            <p>$140.00 <del>155.00</del></p>
+                                                            <p>&#8358;140.00 <del>155.00</del></p>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -476,7 +476,7 @@ Hooded Jacket</a></h1>
                                                 <div class="btc_shop_indx_cont_box_wrapper">
                                                     <div class="btc_shop_indx_img_wrapper">
 
-                                                        <img src="images/inner/on9.png" alt="shop_img" class="img-responsive" />
+                                                        <img src="{% static 'images/inner/on9.png' %}" alt="shop_img" class="img-responsive" />
                                                         <div class="cc_li_img_overlay">
                                                             <div class="cc_li_img_text">
                                                                 <ul>
@@ -516,7 +516,7 @@ Hooded Jacket</a></h1>
                                                             <h3>adidas </h3>
                                                         </div>
                                                         <div class="product_price">
-                                                            <p>$141.00 <del>153.00</del></p>
+                                                            <p>&#8358;141.00 <del>153.00</del></p>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -532,12 +532,12 @@ Hooded Jacket</a></h1>
                                                         <ul>
                                                             <li class="btc_shop_price">new</li>
                                                         </ul>
-                                                        <img src="images/inner/on1.png" alt="shop_img" class="img-responsive" />
+                                                        <img src="{% static 'images/inner/on1.png' %}" alt="shop_img" class="img-responsive" />
                                                     </div>
                                                     <div class="btc_shop_list_img_cont_wrapper shop_right_list">
 
                                                         <h1><a href="#">hooded racket</a></h1>
-                                                        <p>$140.00 <del>150.00</del></p>
+                                                        <p>&#8358;140.00 <del>150.00</del></p>
                                                         <p class="shop_para">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sedn ullamco adipisicing elit.</p>
                                                         <div class="btc_shop_list_bottom_social_wrapper ">
                                                             <ul>
@@ -555,12 +555,12 @@ Hooded Jacket</a></h1>
                                                         <ul>
                                                             <li class="btc_shop_price">new</li>
                                                         </ul>
-                                                        <img src="images/inner/on2.png" alt="shop_img" class="img-responsive" />
+                                                        <img src="{% static 'images/inner/on2.png' %}" alt="shop_img" class="img-responsive" />
                                                     </div>
                                                     <div class="btc_shop_list_img_cont_wrapper shop_right_list">
 
                                                         <h1><a href="#">SUNSHINE IN MY SOUL</a></h1>
-                                                        <p>$150.00 <del>190.00</del></p>
+                                                        <p>&#8358;150.00 <del>190.00</del></p>
                                                         <p class="shop_para">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sedn ullamco adipisicing elit.</p>
 
                                                         <div class="btc_shop_list_bottom_social_wrapper ">
@@ -579,13 +579,13 @@ Hooded Jacket</a></h1>
                                                         <ul>
                                                             <li class="btc_shop_price btc_stock">Sold</li>
                                                         </ul>
-                                                        <img src="images/inner/on3.png" alt="shop_img" class="img-responsive" />
+                                                        <img src="{% static 'images/inner/on3.png' %}" alt="shop_img" class="img-responsive" />
                                                     </div>
                                                     <div class="btc_shop_list_img_cont_wrapper shop_right_list">
 
                                                         <h1><a href="#">
 Hooded Jacket</a></h1>
-                                                        <p>$120.00 <del>130.00</del></p>
+                                                        <p>&#8358;120.00 <del>130.00</del></p>
                                                         <p class="shop_para">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sedn ullamco adipisicing elit.</p>
 
                                                         <div class="btc_shop_list_bottom_social_wrapper ">
@@ -604,13 +604,13 @@ Hooded Jacket</a></h1>
                                                         <ul>
                                                             <li class="btc_shop_price">new</li>
                                                         </ul>
-                                                        <img src="images/inner/on4.png" alt="shop_img" class="img-responsive" />
+                                                        <img src="{% static 'images/inner/on4.png' %}" alt="shop_img" class="img-responsive" />
                                                     </div>
                                                     <div class="btc_shop_list_img_cont_wrapper shop_right_list">
 
                                                         <h1><a href="#">barnded shoes</a></h1>
 
-                                                        <p>$110.00 <del>120.00</del></p>
+                                                        <p>&#8358;110.00 <del>120.00</del></p>
                                                         <p class="shop_para">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sedn ullamco adipisicing elit.</p>
 
                                                         <div class="btc_shop_list_bottom_social_wrapper ">
@@ -627,12 +627,12 @@ Hooded Jacket</a></h1>
                                                 <div class="btc_shop_indx_cont_list_box_wrapper shop_fullwidth_list_wrapper">
                                                     <div class="btc_shop_list_img_wrapper">
 
-                                                        <img src="images/inner/on5.png" alt="shop_img" class="img-responsive" />
+                                                        <img src="{% static 'images/inner/on5.png' %}" alt="shop_img" class="img-responsive" />
                                                     </div>
                                                     <div class="btc_shop_list_img_cont_wrapper shop_right_list">
 
                                                         <h1><a href="#">AMAZING SUMMER</a></h1>
-                                                        <p>$110.00 <del>120.00</del></p>
+                                                        <p>&#8358;110.00 <del>120.00</del></p>
                                                         <p class="shop_para">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sedn ullamco adipisicing elit.</p>
 
                                                         <div class="btc_shop_list_bottom_social_wrapper ">
@@ -651,12 +651,12 @@ Hooded Jacket</a></h1>
                                                         <ul>
                                                             <li class="btc_shop_price btc_stock">Sold</li>
                                                         </ul>
-                                                        <img src="images/inner/on6.png" alt="shop_img" class="img-responsive" />
+                                                        <img src="{% static 'images/inner/on6.png' %}" alt="shop_img" class="img-responsive" />
                                                     </div>
                                                     <div class="btc_shop_list_img_cont_wrapper shop_right_list">
 
                                                         <h1><a href="#">CREPE FROCK</a></h1>
-                                                        <p>$115.00 <del>127.00</del></p>
+                                                        <p>&#8358;115.00 <del>127.00</del></p>
                                                         <p class="shop_para">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sedn ullamco adipisicing elit.</p>
 
                                                         <div class="btc_shop_list_bottom_social_wrapper ">
@@ -673,12 +673,12 @@ Hooded Jacket</a></h1>
                                                 <div class="btc_shop_indx_cont_list_box_wrapper shop_fullwidth_list_wrapper">
                                                     <div class="btc_shop_list_img_wrapper">
 
-                                                        <img src="images/inner/on7.png" alt="shop_img" class="img-responsive" />
+                                                        <img src="{% static 'images/inner/on7.png' %}" alt="shop_img" class="img-responsive" />
                                                     </div>
                                                     <div class="btc_shop_list_img_cont_wrapper shop_right_list">
 
                                                         <h1><a href="#">WOMEN'S A-LINE</a></h1>
-                                                        <p>$110.00 <del>120.00</del></p>
+                                                        <p>&#8358;110.00 <del>120.00</del></p>
                                                         <p class="shop_para">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sedn ullamco adipisicing elit.</p>
 
                                                         <div class="btc_shop_list_bottom_social_wrapper ">
